@@ -35,7 +35,7 @@ Ideal for learning NLP and running on free GPUs.
 git clone https://github.com/yourusername/DistilBERT_Sentiment_Repo.git
 cd DistilBERT_Sentiment_Repo
 ```
-## 📁 Project Structure
+📁 Project Structure
 ```
 repo/
 │── README.md
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ```
 
 ---
-##🏋️ Training (Kaggle Recommended)
+## 🏋️ Training (Kaggle Recommended)
 Use the Kaggle notebook for:
 - GPU acceleration  
 - FP16 mixed precision  
@@ -89,7 +89,7 @@ DistilBERT is fine-tuned
 Metrics (Accuracy, F1) are computed
 Model is saved into ./results/
 
-##📈 Model Performance
+## 📈 Model Performance
 
 After training you will see:
 Epoch 1/2 – Accuracy: 0.89, F1: 0.88
@@ -163,14 +163,14 @@ docker build -t sentiment-app .
 docker run -p 8000:8000 sentiment-app
 ```
 
-##❤️ Credits
+## ❤️ Credits
 Built using:
 HuggingFace Transformers
 FastAPI
 Bootstrap
 PyTorch
 
-##⭐ Contribute
+## ⭐ Contribute
 
 Pull requests welcome!
 You can:
@@ -181,5 +181,5 @@ Add ONNX optimization
 
 
 
-## 📝 License
+📝 License
 MIT License
