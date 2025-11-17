@@ -1,0 +1,7 @@
+transformers
+datasets
+evaluate
+accelerate
+fastapi
+uvicorn
+torch
